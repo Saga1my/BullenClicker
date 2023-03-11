@@ -1,0 +1,69 @@
+#bullen{
+    height: 200px;
+    margin-left: 600px;
+}
+
+
+.spelet{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+body{
+    background-color: rgb(130, 130, 130); 
+}
+
+
+
+header{
+    font-family:cursive;
+    line-height: 10px;
+}
+
+#saltpinne{
+    border-radius: 30px;
+    background-color: rgb(52, 52, 52);
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 40px;
+    color: aliceblue;
+    font-family:sans-serif;
+    height: 50%;
+}
+#knäckebröd{
+    border-radius: 30px;
+    background-color: rgb(52, 52, 52);
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 40px;
+    color: aliceblue;
+    font-family:sans-serif;
+    height: 50%;
+}
+#blåbärsmuffin{
+    border-radius: 30px;
+    background-color: rgb(52, 52, 52);
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 40px;
+    color: aliceblue;
+    font-family:sans-serif;
+    height: 50%;
+}
+
+
+div {
+    background-color: rgb(195, 195, 195);
+    padding: 20px;
+    display: none;
+    border-radius: 15px;
+}
+    
+#saltpinne:hover + .saltpinne_info {
+display: block;}
+#blåbärsmuffin:hover + .blåbärsmuffin_info {
+display: block;}
+#knäckebröd:hover + .knäckebröd_info {
+display: block;}
+
